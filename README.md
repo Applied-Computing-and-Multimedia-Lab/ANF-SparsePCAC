@@ -5,7 +5,7 @@ This repository contains source code for Sparse Tensor-based point cloud attribu
 
 # Abstract
 The large amount of data of point cloud poses challenges for efficient storage and transmission. To address this problem, various learning-based techniques, in addition to rule-based solutions, have been developed for point cloud compression.While many previous works employed the variational autoencoder (VAE) structure, they have failed to achieve promising performance at high bitrates. In this paper, we propose a novel point cloud attribute compression technique based on the Augmented Normalizing Flow (ANF) model, which incorporates sparse convolutions where a sparse tensor is used to represent the point cloud attribute. The invertibility of the NF model provides better reconstruction compared to VAE-based coding schemes.ANF provides a more flexible way to model the input distribution by introducing additional conditioning variables into the flow. Not only comparable to G-PCC, the experimental results demonstrate the effectiveness and superiority of the proposed method over several learning-based point cloud attribute compression techniques, even without requiring sophisticated context modeling.
-![architecture](https://github.com/kai0416s/ANF-Sparse-PCAC/blob/main/architecture.png)
+![architecture](https://github.com/Applied-Computing-and-Multimedia-Lab/ANF-SparsePCAC/blob/main/architecture.png)
 # Requirments environment
 * Create env：
 ```

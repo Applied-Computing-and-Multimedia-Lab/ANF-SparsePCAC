@@ -1,0 +1,14 @@
+tqdm
+h5py
+tensorboardX
+numpy
+pandas
+matplotlib
+absl-py
+scikit-image -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
+range-coder
+matplotlib
+open3d==0.9
+pyntcloud
+compressai
+torchacc

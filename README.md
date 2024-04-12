@@ -38,12 +38,12 @@ cd ../
 [ScanNet dataset](https://github.com/ScanNet/ScanNet), which is a large open-source dataset of indoor scenes.
 >cube division with size 64* 64 *64. We randomly selected 50,000 cubes and used them for training.
 
-![trainingdata](https://github.com/kai0416s/ANF-Sparse-PCAC/blob/main/trainingdata.png)
+![trainingdata](https://github.com/Applied-Computing-and-Multimedia-Lab/ANF-SparsePCAC/blob/main/trainingdata.png)
 
 - Testing：
 8iVFB dataset(longdress, loot, redandblack, and soldier.)
 
-![testingdata](https://github.com/kai0416s/ANF-Sparse-PCAC/blob/main/testingdata.png)
+![testingdata](https://github.com/Applied-Computing-and-Multimedia-Lab/ANF-SparsePCAC/blob/main/testingdata.png)
 
 # check point download：
 | check point  | [Link](https://drive.google.com/drive/folders/1De7zUg2WWiax_u-Z5HvlhI-AfD8N3Hnd?usp=sharing)|
@@ -120,7 +120,7 @@ python test.py
 # Result
 compared our approach with three methods, including two learning-based methods：Deep PCAC and SparsePCAC, and a traditional point cloud compression standard G-PCC(TMC13v14).
 
-![BD-Rate (%) and BD-PSNR (dB) with respect to abchors](https://github.com/kai0416s/ANF-Sparse-PCAC/blob/main/result.png)
+![BD-Rate (%) and BD-PSNR (dB) with respect to abchors](https://github.com/Applied-Computing-and-Multimedia-Lab/ANF-SparsePCAC/blob/main/result.png)
 
 # Authors
 These files are provided by National Chung Cheng University [Applied Computing and Multimedia Lab](https://chiang.ccu.edu.tw/index.php).
